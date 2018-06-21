@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#44000000">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_popup_imageview"
+            android:layout_centerInParent="true"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_popup_progressbar"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nameText"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/fragment_popup_name_textview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="descriptionText"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/fragment_popup_description_textview"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calorieText"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/fragment_popup_calorie_textview"/>
+
+
+</LinearLayout>
